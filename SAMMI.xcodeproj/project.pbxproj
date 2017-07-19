@@ -1,0 +1,565 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		60B42C941F14530700CA051F /* PieView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 60B42C931F14530700CA051F /* PieView.xib */; };
+		60B42C971F14536B00CA051F /* PieView.m in Sources */ = {isa = PBXBuildFile; fileRef = 60B42C961F14536B00CA051F /* PieView.m */; };
+		60B42CDD1F14A4DA00CA051F /* UsageView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 60B42CDC1F14A4DA00CA051F /* UsageView.xib */; };
+		60B42CDF1F14A4F800CA051F /* RobotMeasures.xib in Resources */ = {isa = PBXBuildFile; fileRef = 60B42CDE1F14A4F800CA051F /* RobotMeasures.xib */; };
+		60E0E6A71F076F2D00534E0D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 60E0E6A61F076F2D00534E0D /* main.m */; };
+		60E0E6AA1F076F2D00534E0D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 60E0E6A91F076F2D00534E0D /* AppDelegate.m */; };
+		60E0E6AD1F076F2D00534E0D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 60E0E6AC1F076F2D00534E0D /* ViewController.m */; };
+		60E0E6B01F076F2D00534E0D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 60E0E6AE1F076F2D00534E0D /* Main.storyboard */; };
+		60E0E6B21F076F2D00534E0D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 60E0E6B11F076F2D00534E0D /* Assets.xcassets */; };
+		60E0E6B51F076F2D00534E0D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 60E0E6B31F076F2D00534E0D /* LaunchScreen.storyboard */; };
+		60E0E6C01F076F2D00534E0D /* SAMMITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 60E0E6BF1F076F2D00534E0D /* SAMMITests.m */; };
+		60E0E6CB1F076F2D00534E0D /* SAMMIUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 60E0E6CA1F076F2D00534E0D /* SAMMIUITests.m */; };
+		60E0E7271F0B52A800534E0D /* UsageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 60E0E7261F0B52A800534E0D /* UsageView.m */; };
+		60E0E72A1F0B52D800534E0D /* RobotMeasures.m in Sources */ = {isa = PBXBuildFile; fileRef = 60E0E7291F0B52D800534E0D /* RobotMeasures.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		60E0E6BC1F076F2D00534E0D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 60E0E69A1F076F2D00534E0D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 60E0E6A11F076F2D00534E0D;
+			remoteInfo = SAMMI;
+		};
+		60E0E6C71F076F2D00534E0D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 60E0E69A1F076F2D00534E0D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 60E0E6A11F076F2D00534E0D;
+			remoteInfo = SAMMI;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		60B42C931F14530700CA051F /* PieView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PieView.xib; sourceTree = "<group>"; };
+		60B42C951F14536B00CA051F /* PieView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PieView.h; sourceTree = "<group>"; };
+		60B42C961F14536B00CA051F /* PieView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PieView.m; sourceTree = "<group>"; };
+		60B42CDC1F14A4DA00CA051F /* UsageView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UsageView.xib; sourceTree = "<group>"; };
+		60B42CDE1F14A4F800CA051F /* RobotMeasures.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RobotMeasures.xib; sourceTree = "<group>"; };
+		60E0E6A21F076F2D00534E0D /* SAMMI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SAMMI.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		60E0E6A61F076F2D00534E0D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		60E0E6A81F076F2D00534E0D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		60E0E6A91F076F2D00534E0D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		60E0E6AB1F076F2D00534E0D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		60E0E6AC1F076F2D00534E0D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		60E0E6AF1F076F2D00534E0D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		60E0E6B11F076F2D00534E0D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		60E0E6B41F076F2D00534E0D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		60E0E6B61F076F2D00534E0D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		60E0E6BB1F076F2D00534E0D /* SAMMITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SAMMITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		60E0E6BF1F076F2D00534E0D /* SAMMITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SAMMITests.m; sourceTree = "<group>"; };
+		60E0E6C11F076F2D00534E0D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		60E0E6C61F076F2D00534E0D /* SAMMIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SAMMIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		60E0E6CA1F076F2D00534E0D /* SAMMIUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SAMMIUITests.m; sourceTree = "<group>"; };
+		60E0E6CC1F076F2D00534E0D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		60E0E7251F0B52A800534E0D /* UsageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UsageView.h; sourceTree = "<group>"; };
+		60E0E7261F0B52A800534E0D /* UsageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UsageView.m; sourceTree = "<group>"; };
+		60E0E7281F0B52D800534E0D /* RobotMeasures.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RobotMeasures.h; sourceTree = "<group>"; };
+		60E0E7291F0B52D800534E0D /* RobotMeasures.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RobotMeasures.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		60E0E69F1F076F2D00534E0D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60E0E6B81F076F2D00534E0D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60E0E6C31F076F2D00534E0D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		60E0E6991F076F2D00534E0D = {
+			isa = PBXGroup;
+			children = (
+				60E0E6A41F076F2D00534E0D /* SAMMI */,
+				60E0E6BE1F076F2D00534E0D /* SAMMITests */,
+				60E0E6C91F076F2D00534E0D /* SAMMIUITests */,
+				60E0E6A31F076F2D00534E0D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		60E0E6A31F076F2D00534E0D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				60E0E6A21F076F2D00534E0D /* SAMMI.app */,
+				60E0E6BB1F076F2D00534E0D /* SAMMITests.xctest */,
+				60E0E6C61F076F2D00534E0D /* SAMMIUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		60E0E6A41F076F2D00534E0D /* SAMMI */ = {
+			isa = PBXGroup;
+			children = (
+				60E0E6A81F076F2D00534E0D /* AppDelegate.h */,
+				60E0E6A91F076F2D00534E0D /* AppDelegate.m */,
+				60E0E6AB1F076F2D00534E0D /* ViewController.h */,
+				60E0E6AC1F076F2D00534E0D /* ViewController.m */,
+				60E0E6AE1F076F2D00534E0D /* Main.storyboard */,
+				60E0E7251F0B52A800534E0D /* UsageView.h */,
+				60E0E7261F0B52A800534E0D /* UsageView.m */,
+				60B42CDC1F14A4DA00CA051F /* UsageView.xib */,
+				60E0E7281F0B52D800534E0D /* RobotMeasures.h */,
+				60E0E7291F0B52D800534E0D /* RobotMeasures.m */,
+				60B42CDE1F14A4F800CA051F /* RobotMeasures.xib */,
+				60B42C951F14536B00CA051F /* PieView.h */,
+				60B42C961F14536B00CA051F /* PieView.m */,
+				60B42C931F14530700CA051F /* PieView.xib */,
+				60E0E6B11F076F2D00534E0D /* Assets.xcassets */,
+				60E0E6B31F076F2D00534E0D /* LaunchScreen.storyboard */,
+				60E0E6B61F076F2D00534E0D /* Info.plist */,
+				60E0E6A51F076F2D00534E0D /* Supporting Files */,
+			);
+			path = SAMMI;
+			sourceTree = "<group>";
+		};
+		60E0E6A51F076F2D00534E0D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				60E0E6A61F076F2D00534E0D /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		60E0E6BE1F076F2D00534E0D /* SAMMITests */ = {
+			isa = PBXGroup;
+			children = (
+				60E0E6BF1F076F2D00534E0D /* SAMMITests.m */,
+				60E0E6C11F076F2D00534E0D /* Info.plist */,
+			);
+			path = SAMMITests;
+			sourceTree = "<group>";
+		};
+		60E0E6C91F076F2D00534E0D /* SAMMIUITests */ = {
+			isa = PBXGroup;
+			children = (
+				60E0E6CA1F076F2D00534E0D /* SAMMIUITests.m */,
+				60E0E6CC1F076F2D00534E0D /* Info.plist */,
+			);
+			path = SAMMIUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		60E0E6A11F076F2D00534E0D /* SAMMI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 60E0E6CF1F076F2D00534E0D /* Build configuration list for PBXNativeTarget "SAMMI" */;
+			buildPhases = (
+				60E0E69E1F076F2D00534E0D /* Sources */,
+				60E0E69F1F076F2D00534E0D /* Frameworks */,
+				60E0E6A01F076F2D00534E0D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SAMMI;
+			productName = SAMMI;
+			productReference = 60E0E6A21F076F2D00534E0D /* SAMMI.app */;
+			productType = "com.apple.product-type.application";
+		};
+		60E0E6BA1F076F2D00534E0D /* SAMMITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 60E0E6D21F076F2D00534E0D /* Build configuration list for PBXNativeTarget "SAMMITests" */;
+			buildPhases = (
+				60E0E6B71F076F2D00534E0D /* Sources */,
+				60E0E6B81F076F2D00534E0D /* Frameworks */,
+				60E0E6B91F076F2D00534E0D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				60E0E6BD1F076F2D00534E0D /* PBXTargetDependency */,
+			);
+			name = SAMMITests;
+			productName = SAMMITests;
+			productReference = 60E0E6BB1F076F2D00534E0D /* SAMMITests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		60E0E6C51F076F2D00534E0D /* SAMMIUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 60E0E6D51F076F2D00534E0D /* Build configuration list for PBXNativeTarget "SAMMIUITests" */;
+			buildPhases = (
+				60E0E6C21F076F2D00534E0D /* Sources */,
+				60E0E6C31F076F2D00534E0D /* Frameworks */,
+				60E0E6C41F076F2D00534E0D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				60E0E6C81F076F2D00534E0D /* PBXTargetDependency */,
+			);
+			name = SAMMIUITests;
+			productName = SAMMIUITests;
+			productReference = 60E0E6C61F076F2D00534E0D /* SAMMIUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		60E0E69A1F076F2D00534E0D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Palak Patel";
+				TargetAttributes = {
+					60E0E6A11F076F2D00534E0D = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+					60E0E6BA1F076F2D00534E0D = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 60E0E6A11F076F2D00534E0D;
+					};
+					60E0E6C51F076F2D00534E0D = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 60E0E6A11F076F2D00534E0D;
+					};
+				};
+			};
+			buildConfigurationList = 60E0E69D1F076F2D00534E0D /* Build configuration list for PBXProject "SAMMI" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 60E0E6991F076F2D00534E0D;
+			productRefGroup = 60E0E6A31F076F2D00534E0D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				60E0E6A11F076F2D00534E0D /* SAMMI */,
+				60E0E6BA1F076F2D00534E0D /* SAMMITests */,
+				60E0E6C51F076F2D00534E0D /* SAMMIUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		60E0E6A01F076F2D00534E0D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60B42CDD1F14A4DA00CA051F /* UsageView.xib in Resources */,
+				60E0E6B51F076F2D00534E0D /* LaunchScreen.storyboard in Resources */,
+				60B42C941F14530700CA051F /* PieView.xib in Resources */,
+				60E0E6B21F076F2D00534E0D /* Assets.xcassets in Resources */,
+				60E0E6B01F076F2D00534E0D /* Main.storyboard in Resources */,
+				60B42CDF1F14A4F800CA051F /* RobotMeasures.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60E0E6B91F076F2D00534E0D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60E0E6C41F076F2D00534E0D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		60E0E69E1F076F2D00534E0D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60E0E6AD1F076F2D00534E0D /* ViewController.m in Sources */,
+				60E0E6AA1F076F2D00534E0D /* AppDelegate.m in Sources */,
+				60E0E72A1F0B52D800534E0D /* RobotMeasures.m in Sources */,
+				60B42C971F14536B00CA051F /* PieView.m in Sources */,
+				60E0E7271F0B52A800534E0D /* UsageView.m in Sources */,
+				60E0E6A71F076F2D00534E0D /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60E0E6B71F076F2D00534E0D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60E0E6C01F076F2D00534E0D /* SAMMITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60E0E6C21F076F2D00534E0D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60E0E6CB1F076F2D00534E0D /* SAMMIUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		60E0E6BD1F076F2D00534E0D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 60E0E6A11F076F2D00534E0D /* SAMMI */;
+			targetProxy = 60E0E6BC1F076F2D00534E0D /* PBXContainerItemProxy */;
+		};
+		60E0E6C81F076F2D00534E0D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 60E0E6A11F076F2D00534E0D /* SAMMI */;
+			targetProxy = 60E0E6C71F076F2D00534E0D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		60E0E6AE1F076F2D00534E0D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				60E0E6AF1F076F2D00534E0D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		60E0E6B31F076F2D00534E0D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				60E0E6B41F076F2D00534E0D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		60E0E6CD1F076F2D00534E0D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		60E0E6CE1F076F2D00534E0D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		60E0E6D01F076F2D00534E0D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SAMMI/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pulse.SAMMI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		60E0E6D11F076F2D00534E0D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SAMMI/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pulse.SAMMI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		60E0E6D31F076F2D00534E0D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SAMMITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pulse.SAMMITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SAMMI.app/SAMMI";
+			};
+			name = Debug;
+		};
+		60E0E6D41F076F2D00534E0D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SAMMITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pulse.SAMMITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SAMMI.app/SAMMI";
+			};
+			name = Release;
+		};
+		60E0E6D61F076F2D00534E0D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SAMMIUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pulse.SAMMIUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SAMMI;
+			};
+			name = Debug;
+		};
+		60E0E6D71F076F2D00534E0D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SAMMIUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pulse.SAMMIUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SAMMI;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		60E0E69D1F076F2D00534E0D /* Build configuration list for PBXProject "SAMMI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				60E0E6CD1F076F2D00534E0D /* Debug */,
+				60E0E6CE1F076F2D00534E0D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		60E0E6CF1F076F2D00534E0D /* Build configuration list for PBXNativeTarget "SAMMI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				60E0E6D01F076F2D00534E0D /* Debug */,
+				60E0E6D11F076F2D00534E0D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		60E0E6D21F076F2D00534E0D /* Build configuration list for PBXNativeTarget "SAMMITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				60E0E6D31F076F2D00534E0D /* Debug */,
+				60E0E6D41F076F2D00534E0D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		60E0E6D51F076F2D00534E0D /* Build configuration list for PBXNativeTarget "SAMMIUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				60E0E6D61F076F2D00534E0D /* Debug */,
+				60E0E6D71F076F2D00534E0D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 60E0E69A1F076F2D00534E0D /* Project object */;
+}
